@@ -6,8 +6,5 @@
 以上の3つを行いました。
 
 ### 利用したサイト
-- Google Cloud Platform
-- Google Map Platform
-<br>
 Google Cloud Platform = APIキーの作成<br>
 Google Map Platform = Google Mapの構文取得
