@@ -21,7 +21,19 @@ let map;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
+    // latが緯度で lngが経度
+    center: { lat: 35.681236, lng: 139.767125 },
+    zoom: 14,
   });
+
+ // マーカーを置く
+  var marker = new google.maps.Marker({
+      position: {lat: 35.681236, lng: 139.767125}, // マーカーが指す緯度経度
+      map: map,　                             // 描画するマップ
+      title: "ここが東京駅",   // ツールチップ
+  });
+
+
 }
+
+
