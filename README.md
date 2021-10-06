@@ -1,24 +1,13 @@
-# README
+### Google Mapを使う為に作った練習用のアプリです。
+- Google Mapの利用
+- 初期設定の緯度経度の変更
+- マーキングの追加
+<br>
+以上の3つを行いました。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 利用したサイト
+- Google Cloud Platform
+- Google Map Platform
+<br>
+Google Cloud Platform = APIキーの作成<br>
+Google Map Platform = Google Mapの構文取得
