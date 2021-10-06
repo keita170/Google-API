@@ -6,5 +6,5 @@
 以上の3つを行いました。
 
 ### 利用したサイト
-Google Cloud Platform = APIキーの作成<br>
-Google Map Platform = Google Mapの構文取得
+Google Cloud Platform = APIキーの作成(https://console.cloud.google.com/home/dashboard?project=utopian-nimbus-328219)<br>
+Google Map Platform = Google Mapの構文取得(https://developers.google.com/maps/documentation/javascript/examples/map-simple)
