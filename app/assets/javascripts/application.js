@@ -32,8 +32,4 @@ function initMap() {
       map: map,　                             // 描画するマップ
       title: "ここが東京駅",   // ツールチップ
   });
-
-
 }
-
-
