@@ -22,8 +22,8 @@ let map;
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     // latが緯度で lngが経度
-    center: { lat: 35.681236, lng: 139.767125 },
-    zoom: 14, 
+    center: { lat: 35.681236, lng: 139.767125 },   //地図を表示する際の真ん中の位置
+    zoom: 14,  //ズームの大きさ
   });
 
  // マーカーを置く
