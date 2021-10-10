@@ -23,13 +23,13 @@ function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     // latが緯度で lngが経度
     center: { lat: 35.681236, lng: 139.767125 },
-    zoom: 14,
+    zoom: 14, 
   });
 
  // マーカーを置く
   var marker = new google.maps.Marker({
       position: {lat: 35.681236, lng: 139.767125}, // マーカーが指す緯度経度
-      map: map,　                             // 描画するマップ
-      title: "ここが東京駅",   // ツールチップ
+      map: map,　                             // 描画するマップの種類
+      title: "ここが東京駅",   // ツールチップ-マーカー表示時に文字として表示する
   });
 }
